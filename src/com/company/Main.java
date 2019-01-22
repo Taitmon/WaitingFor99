@@ -5,16 +5,16 @@ public class Main
 
     public static void main(String[] args)
     {
-        java.util.Scanner userinput = new java.util.Scanner(System.in);
+        java.util.Scanner userInput = new java.util.Scanner(System.in);
 
-        int usernumber;
+        int userNumber;
         int goldenAnswer = 99;
         do
         {
             System.out.println("Please enter the number 99.");
-            usernumber = userinput.nextInt();
+            userNumber = userInput.nextInt();
         }
-        while (usernumber != goldenAnswer);
+        while (userNumber != goldenAnswer);
 
         System.out.println("99 I've been waiting so long.");
 
